@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from '../style';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
-import { textVariant,fadeIn } from '../utils/motion';
+import { textVariant,slideIn } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -39,14 +39,13 @@ const ExperienceCard = ({ experience }) => {
       </div>
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point,index) =>(
-          <motion.li
-          variants={fadeIn("right","spring",1,1)}
+          <li
           key={`experience-point-${index}`}
           className=" text-white-100 text-[14px] pl-1 tracking-wide"
           >
             {point}
 
-          </motion.li>
+          </li>
         ))
 
         }
@@ -59,14 +58,14 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div textVariant={textVariant()}>
+      <motion.div  variants={textVariant()}>
         <p className={styles.sectionSubText}>WHAT I HAVE DONE SO FAR</p>
         <h2 className={`${styles.sectionHeadText} `} >Work Experience.</h2>
       </motion.div>
       <div
        className="mt-20 flex flex-col">
         <VerticalTimeline
-        animate={false}
+        animate={true}
         lineColor={'linear-gradient(to bottom, #121e3e, #7a40f9, #7f47fb, #854efc, #8a55fd, #7854ea, #6851d7, #594ec4, #383f97, #202f69, #121e3e, #050816)'} >
           {experiences.map((experience, index) => (
             <ExperienceCard
