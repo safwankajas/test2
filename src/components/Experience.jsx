@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from '../style';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
-import { textVariant,slideIn } from '../utils/motion';
+import { slideIn,textVariant,textVariant2 } from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -60,12 +60,17 @@ const Experience = () => {
     <>
       <motion.div 
       className=""
-      variants={textVariant()}>
+      variants={textVariant(1)}
+      initial="hidden"
+      whileInView="show"
+      >
         <p className={`${styles.sectionSubText} `}>WHAT I HAVE DONE SO FAR</p>
         <h2 className={`${styles.sectionHeadText} `} >Work Experience.</h2>
       </motion.div>
       <motion.div
-        variants={textVariant()}
+       variants={textVariant2(1)}
+       initial="hidden"
+        whileInView="show"
        className="mt-20 flex flex-col">
         <VerticalTimeline
        
