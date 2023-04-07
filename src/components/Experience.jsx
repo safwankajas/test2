@@ -63,6 +63,7 @@ const Experience = () => {
       variants={textVariant(1)}
       initial="hidden"
       whileInView="show"
+      viewport={{ once: true,}}
       >
         <p className={`${styles.sectionSubText} `}>WHAT I HAVE DONE SO FAR</p>
         <h2 className={`${styles.sectionHeadText} `} >Work Experience.</h2>
@@ -71,6 +72,7 @@ const Experience = () => {
        variants={textVariant2(1)}
        initial="hidden"
         whileInView="show"
+        viewport={{ once: true,}}
        className="mt-20 flex flex-col">
         <VerticalTimeline
        
