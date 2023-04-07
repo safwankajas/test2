@@ -34,8 +34,8 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant}>
-      <p className={`styles.sectionSubText `}>INTRODUCTION</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <p className={`${styles.sectionSubText} `}>INTRODUCTION</p>
+      <h2 className={`${styles.sectionHeadText} bg-clip-text text-transparent   bg-gradient-to-r from-green-400 to-blue-500 `}>Overview.</h2>
     </motion.div>
     <motion.p 
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
