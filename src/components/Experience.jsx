@@ -40,7 +40,7 @@ const ExperienceCard = ({ experience }) => {
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point,index) =>(
           <motion.li
-          variants={fadeIn("right","spring",.5,.75)}
+          variants={fadeIn("right","spring",1,1)}
           key={`experience-point-${index}`}
           className=" text-white-100 text-[14px] pl-1 tracking-wide"
           >
@@ -66,6 +66,7 @@ const Experience = () => {
       <div
        className="mt-20 flex flex-col">
         <VerticalTimeline
+        animate={false}
         lineColor={'linear-gradient(to bottom, #121e3e, #7a40f9, #7f47fb, #854efc, #8a55fd, #7854ea, #6851d7, #594ec4, #383f97, #202f69, #121e3e, #050816)'} >
           {experiences.map((experience, index) => (
             <ExperienceCard
