@@ -7,6 +7,12 @@
 html, body {
   overflow-x:hidden 
 } 
+.vertical-timeline-element-content {
+  border-radius: 2px solid red;
+  box-shadow: inset 2px 1px  5px  #00cea8, 0px 3px  5px  #bf61ff,1px 3px  10px  #00cea8
+              
+}
+
 
 * {
   margin: 0;
