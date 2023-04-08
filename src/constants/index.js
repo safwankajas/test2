@@ -79,7 +79,7 @@ const technologies = [
   },
   {
     name: "React JS",
-    icon: threejspng,
+    icon: reactjs,
   },
   {
     name: "Redux Toolkit",
@@ -99,7 +99,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: threejs,
+    icon: threejspng,
   },
   {
     name: "git",
