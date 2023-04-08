@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, .75)}
+      variants={fadeIn("up", "spring", index * 0.7, 3)}
     >
       <Tilt
         options={{
@@ -60,7 +60,7 @@ const Work = () => {
   return (
     <>
       <motion.div 
-      variants={textVariant(1)}
+      variants={textVariant()}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true,}}
@@ -70,7 +70,7 @@ const Work = () => {
       </motion.div>
       <div className=' w-full flex'>
         <motion.p
-          variants={fadeIn("up", "spring", .1, 1)}
+           variants={fadeIn("right","spring",.1,.75)}
           className=' mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] '>
           Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
 
