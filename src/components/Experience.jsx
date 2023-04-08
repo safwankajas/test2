@@ -68,11 +68,8 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} `}>WHAT I HAVE DONE SO FAR</p>
         <h2 className={`${styles.sectionHeadText} `} >Work Experience.</h2>
       </motion.div>
-      <motion.div
-       variants={textVariant2(1)}
-       initial="hidden"
-        whileInView="show"
-        viewport={{ once: true,}}
+      <div
+       
        className="mt-20 flex flex-col">
         <VerticalTimeline
        
@@ -85,7 +82,7 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
-      </motion.div >
+      </div >
     </>
   )
 }
