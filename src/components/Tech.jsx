@@ -12,11 +12,11 @@ const Tech = () => {
     gradientColor={[5 ,8 ,22]}
     gradientWidth={200}
     pauseOnHover={true}
-    speed={30}>
-      <div className="flex  m-2  items-center h-28 gap-10">
+    speed={50}>
+      <div className="flex  items-center h-28 gap-10">
 
     {technologies.map((tech)=>(
-      <img className="p-2 w-14 h-14 object-contain    rounded-full" src={tech.icon} alt="" />
+      <img className="  w-24 h-24 object-contain    rounded-full" src={tech.icon} alt="" />
       ))}
       </div>
   </Marquee>
