@@ -68,8 +68,8 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} `}>WHAT I HAVE DONE SO FAR</p>
         <h2 className={`${styles.sectionHeadText} `} >Work Experience.</h2>
       </motion.div>
-      <motion.div
-       variants={fadeIn("","",.1,.8)}
+      <div
+       
        className="mt-20 flex flex-col">
         <VerticalTimeline
        
@@ -82,7 +82,7 @@ const Experience = () => {
             />
           ))}
         </VerticalTimeline>
-      </motion.div >
+      </div >
     </>
   )
 }
