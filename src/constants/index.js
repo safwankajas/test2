@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  threejspng,
 } from "../assets";
 
 export const navLinks = [
@@ -78,7 +79,7 @@ const technologies = [
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: threejspng,
   },
   {
     name: "Redux Toolkit",
