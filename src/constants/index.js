@@ -213,7 +213,7 @@ const projects = [
       },
     ],
     image: placement,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://sites.google.com/view/placement-cell-geci/login",
   },
   // {
   //   name: "Trip Guide",
