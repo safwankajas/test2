@@ -28,7 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import lazim_hostel from "./lazim_hostel.png";
-import jobit from "./jobit.png";
+import placement from "./placement.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -59,6 +59,6 @@ export {
   starbucks,
   tesla,
   lazim_hostel,
-  jobit,
+  placement,
   tripguide,
 };

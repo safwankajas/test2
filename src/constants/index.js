@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   lazim_hostel,
-  jobit,
+  placement,
   tripguide,
   threejs,
   threejspng,
@@ -194,27 +194,27 @@ const projects = [
     image: lazim_hostel,
     source_code_link: "https://lazimhostel.netlify.app/",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "PLACEMENT CELL",
+    description:
+      "Web application that enables Students can examine their details, alter their CGPA, and adjust their backlog number at any time . ",
+    tags: [
+      {
+        name: "google.site",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "google_sheet",
+        color: "green-text-gradient",
+      },
+      {
+        name: "appscript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: placement,
+    source_code_link: "https://github.com/",
+  },
   // {
   //   name: "Trip Guide",
   //   description:
