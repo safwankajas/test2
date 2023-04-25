@@ -39,7 +39,9 @@ const Home = () => {
           </div>
         </a>
       </div>
-
+      <div className='  sm:hidden  absolute xs:top-10    h-64  top-1 bg-white w-full flex justify-center items-center'>
+        
+      </div>
       
     </section>
   )
