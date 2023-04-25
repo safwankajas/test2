@@ -17,11 +17,11 @@ const App = () => {
         {/* <Experience /> */}
         <Tech />
         <Work />
-        <div className=' relative z-0'>
-        <Contact />
+        {/* <div className=' relative z-0'>
         <StarsCanvas />
-
-        </div>
+        </div> */}
+        
+        <Contact />
       </div>
     </BrowserRouter>
   )
