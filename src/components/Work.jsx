@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
                 className='relative black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
               >
               
-                  <span class=" animate-ping absolute inline-flex h-2/4 w-2/4 rounded-full  bg-secondary opacity-75"></span>
+                  <span class="  absolute inline-flex h-2/4 w-2/4 rounded-full  bg-secondary opacity-75"></span>
                   <img src={github} alt="githup" className='relative inline-flex  w-1/2 h-1/2' />
 
                
@@ -70,7 +70,7 @@ const Work = () => {
       </motion.div>
       <div className=' w-full flex'>
         <motion.p
-           variants={fadeIn("right","spring",.1,.75)}
+           variants={textVariant()}
           className=' mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] '>
           Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
 
