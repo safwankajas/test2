@@ -190,7 +190,7 @@ const projects = [
       },
     ],
     image: lazim_hostel,
-    source_code_link: "https://lazimhostel.netlify.app/",
+    source_code_link: "https://lazimhostel.in/",
   },
   {
     name: "PLACEMENT CELL",
