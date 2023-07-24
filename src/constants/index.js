@@ -130,7 +130,7 @@ const experiences = [
     ],
   },
   {
-    title: "Web,google script & Sheet ",
+    title: "html,google script & Sheet ",
     company_name: "Placement cell",
     icon: placement,
     iconBg: "#fff",
