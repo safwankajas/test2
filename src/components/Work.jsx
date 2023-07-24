@@ -18,18 +18,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           speed: 450,
         }
         }
-        className=" flex  rounded-2xl justify-center items-center green-pink-gradient p-[1.5px] sm:w-[360px] w-full "
+        className=" flex  rounded-2xl justify-center items-center green-pink-gradient p-[1.5px] sm:w-[360px] w-full cursor-pointer "
       >
-        <div className=' hover:animate-pulse p-5  rounded-2xl  w-full bg-tertiary'>
+        <div className=' hover:animate-pulse p-5  rounded-2xl  w-full bg-tertiary'
+          onClick={() => window.open(source_code_link, "_blank")}
+        >
 
-          <div className=' relative w-full h-[230px] '>
+          <div className=' relative w-full h-[230px] '
+          >
             <img
               className=' w-full h-full object-cover rounded-2xl'
               src={image} alt={name} />
             <div className=' absolute  inset-0 flex justify-end m-3 card-img_hover'>
               <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='relative black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                className='relative black-gradient w-10 h-10 rounded-full flex justify-center items-center '
               >
               
                   <span class="  absolute inline-flex h-2/4 w-2/4 rounded-full  bg-secondary opacity-75"></span>
