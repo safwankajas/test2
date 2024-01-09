@@ -1,4 +1,9 @@
-import { BrowserRouter } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import { Navbar,Home,About,Experience,Tech,Work,Contact,StarsCanvas,ComputersCanvas } from './components';
 const App = () => {
   return (
