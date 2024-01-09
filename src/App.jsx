@@ -1,10 +1,28 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter,Routes,
+  Route,
+  Link, } from 'react-router-dom';
 import { Navbar,Home,About,Experience,Tech,Work,Contact,StarsCanvas,ComputersCanvas } from './components';
 const App = () => {
   return (
 
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="/resume" element={<RedirectSite />} />
+      </Routes>
+      
+      
+    </BrowserRouter>
+  )
+}
+const RedirectSite = () => {
+  window.location.href = "/resume.html";
+  return <></>;
+};
+
+function Index() {
+  return    (
+    <div className='relative z-0 bg-primary'>
         <div className=' bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <div className=' relative z-0'>
@@ -23,11 +41,8 @@ const App = () => {
         
         <Contact />
       </div>
-      <route>
-        
-      </route>
-    </BrowserRouter>
-  )
+  );
 }
+
 
 export default App
