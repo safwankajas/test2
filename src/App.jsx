@@ -16,7 +16,7 @@ const App = () => {
   )
 }
 const RedirectSite = () => {
-  window.location.href = "/resume.html";
+  window.location.href = "./resume.html";
   return <></>;
 };
 
