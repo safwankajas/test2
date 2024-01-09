@@ -1,14 +1,14 @@
 import { BrowserRouter,Routes,
   Route,
   Link, } from 'react-router-dom';
-import { Navbar,Home,About,Experience,Tech,Work,Contact,StarsCanvas,ComputersCanvas } from './components';
+import { Navbar,Home,About,Experience,Tech,Work,Contact,StarsCanvas,ComputersCanvas,Resume } from './components';
 const App = () => {
   return (
 
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
-        <Route path="/resume" element={<RedirectSite />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       
       

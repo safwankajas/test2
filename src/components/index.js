@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Tech from "./Tech";
 import Work from "./Work";
 import Contact from "./Contact";
+import Resume from './Resume';
 export {
  Navbar,
  Home,
@@ -14,6 +15,7 @@ export {
  Tech,
  Work,
  Contact,
+ Resume,
  StarsCanvas,
  ComputersCanvas
 };
