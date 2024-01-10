@@ -14,9 +14,9 @@ a{
     text-decoration: none;
 }
 .body-container {
-
     width: 800px;
     /* background: red; */
+    height: 1000px;
     border: solid #8B3DFF 1px;
     border-radius: 30px;
 
@@ -351,6 +351,10 @@ a{
 .body-container-body-left-education-sub-detiail{
     font-size: 8px;
    
+}
+.body-container-body-left-education-head
+{
+    font-size: 18px;
 }
 
 
