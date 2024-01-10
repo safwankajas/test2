@@ -229,6 +229,11 @@ a{
     margin-left: 6px;
     font-weight: 500;
 }
+.body-container-body-left-education-sub-detiail-year
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
 @media only screen and (max-width: 700px) {
     .body-container {
@@ -338,14 +343,15 @@ a{
 .body-container-body-left-education-sub-head
 {
    
-    
+    margin-bottom: 3px;
     font-size: 10px;
     
     
 }
 .body-container-body-left-education-sub-detiail{
-    font-size: 9px;
+    font-size: 8px;
    
 }
+
 
 }
