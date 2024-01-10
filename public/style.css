@@ -260,10 +260,10 @@ a{
 
 .body-container-body-left-education-sub-detiail-eng,.body-container-body-left-education-sub-detiail-mala,.body-container-body-left-education-sub-detiail-hin
 {
-    width: 50%;
+    width: 60%;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 6px;
+    height: 5px;
     border-radius: 15px;
     background-color: #F1F1F1;
 }
@@ -273,7 +273,7 @@ a{
     width: 80%;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 6px;
+    height: 5px;
     border-radius: 15px;
 }
 .body-container-body-left-education-sub-detiail-mala-bac
@@ -282,7 +282,7 @@ a{
     width: 90%;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 6px;
+    height: 5px;
     border-radius: 15px;
 }
 .body-container-body-left-education-sub-detiail-hin-bac
@@ -291,7 +291,7 @@ a{
     width: 50%;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 6px;
+    height: 5px;
     border-radius: 15px;
 }
 
