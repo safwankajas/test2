@@ -16,7 +16,7 @@ a{
 .body-container {
     width: 800px;
     /* background: red; */
-    height: 1000px;
+    height: 1040px;
     border: solid #8B3DFF 1px;
     border-radius: 30px;
 
@@ -299,12 +299,16 @@ a{
     .body-container {
         /* background-color: lightblue; */
         width: 100%;
+       
     }
 
 
 }
 
 @media only screen and (max-width: 600px) {
+    .body-container {
+        height: 850px;
+    }
     .body-container-top {
        
         height: 150px;
