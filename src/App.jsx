@@ -2,6 +2,7 @@ import { BrowserRouter,Routes,
   Route,
   Link, } from 'react-router-dom';
 import { Navbar,Home,About,Experience,Tech,Work,Contact,StarsCanvas,ComputersCanvas,Resume } from './components';
+import Terminal from './Terminal';
 const App = () => {
   return (
 
@@ -9,6 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/resume" element={<RedirectSite />} />
+        <Route path="/file" element={<Terminal />} />
       </Routes>
       
       

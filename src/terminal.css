@@ -1,0 +1,43 @@
+.command-box {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  width: 400px; /* Fixed width */
+  text-align: left;
+
+  /* Center the command-box */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-family: 'Courier New', monospace;
+  width: calc(100% - 20px);
+}
+
+.output {
+  margin-bottom: 10px;
+}
+
+.prompt {
+  color: #00ff00;
+}
+
+.directory {
+  color: #00ffff;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .command-box {
+    max-width: 300px; /* Adjust maximum width for smaller screens */
+  }
+}
