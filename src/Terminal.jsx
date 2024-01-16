@@ -23,7 +23,7 @@ const Terminal = () => {
 
   const handleUsernameSubmit = () => {
     // Assume 'demo' as a valid username for this example
-    if (username === 'demo') {
+    if (username === 'safwankajas') {
       setUsernamePrompt(false);
       setPasswordPrompt(true);
       setOutput('Enter your password:');
