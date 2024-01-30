@@ -248,6 +248,9 @@ a{
     border-radius: 15px;
     text-align: center;
     background-color: #F1F1F1;
+    cursor: pointer;
+    
+    
 }
 .body-container-body-left-skill-box-name{
     color: black;
@@ -256,6 +259,78 @@ a{
     
 
    
+}
+.body-container-body-left-skill-box:hover .body-container-body-left-skill-box-name
+{
+    color: #F1F1F1;
+}
+
+.body-container-body-left-skill-box-name:hover
+.p_100{
+    background: linear-gradient(to right, #97969646 100%, #F1F1F1 0%);
+
+}
+.p_90{
+    background: linear-gradient(to right, #97969646 90%, #F1F1F1 0%);
+}
+.p_80{
+    background: linear-gradient(to right, #97969646 80%, #F1F1F1 0%);
+}
+.p_70{
+    background: linear-gradient(to right, #97969646 70%, #F1F1F1 0%);
+}
+.p_75{
+    background: linear-gradient(to right, #97969646 75%, #F1F1F1 0%);
+
+}
+.p_60{
+    background: linear-gradient(to right, #97969646 60%, #F1F1F1 0%);
+}
+
+.p_50
+{
+    background: linear-gradient(to right, #97969646 50%, #F1F1F1 0%);
+
+}
+.p_30{
+    background: linear-gradient(to right, #97969646 30%, #F1F1F1 0%);
+}
+.p_25{
+    background: linear-gradient(to right, #97969646 25%, #F1F1F1 0%);
+
+}
+.p_100:hover{
+    background: linear-gradient(to right, #8B3DFF 100%, #F1F1F1 0%);
+
+}
+.p_90:hover{
+    background: linear-gradient(to right, #8B3DFF 90%, #F1F1F1 0%);
+}
+.p_80:hover{
+    background: linear-gradient(to right, #8B3DFF 80%, #F1F1F1 0%);
+}
+.p_70:hover{
+    background: linear-gradient(to right, #8B3DFF 70%, #F1F1F1 0%);
+}
+.p_75:hover{
+    background: linear-gradient(to right, #8B3DFF 75%, #F1F1F1 0%);
+
+}
+.p_60:hover{
+    background: linear-gradient(to right, #8B3DFF 60%, #F1F1F1 0%);
+}
+
+.p_50:hover
+{
+    background: linear-gradient(to right, #8B3DFF 50%, #F1F1F1 0%);
+
+}
+.p_30:hover{
+    background: linear-gradient(to right, #8B3DFF 30%, #F1F1F1 0%);
+}
+.p_25:hover{
+    background: linear-gradient(to right, #8B3DFF 25%, #F1F1F1 0%);
+
 }
 
 .body-container-body-left-education-sub-detiail-eng,.body-container-body-left-education-sub-detiail-mala,.body-container-body-left-education-sub-detiail-hin
