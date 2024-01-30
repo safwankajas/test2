@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/resume" element={<RedirectSite />} />
-        <Route path="/resume/tcs" element={<RedirectSite_tcs />} />
+        <Route path="/tcs/resume" element={<RedirectSite_tcs />} />
         <Route path="/file" element={<Terminal />} />
       </Routes>
       
@@ -23,7 +23,7 @@ const RedirectSite = () => {
   return <></>;
 };
 const RedirectSite_tcs = () => {
-  window.location.href = "/resume_tcs.html"; // Absolute path
+  window.location.href = "/tcs/resume_tcs.html"; // Absolute path
   return <></>;
 };
 
