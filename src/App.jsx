@@ -23,7 +23,7 @@ const RedirectSite = () => {
   return <></>;
 };
 const RedirectSite_tcs = () => {
-  window.location.href = "/tcs/resume_tcs.html"; // Absolute path
+  window.location.href = "/resume_tcs.html"; // Absolute path
   return <></>;
 };
 
