@@ -260,7 +260,7 @@ a{
 
    
 }
-.body-container-body-left-skill-box:hover .body-container-body-left-skill-box-name
+.p_80:hover .body-container-body-left-skill-box-name ,.p_75:hover .body-container-body-left-skill-box-name ,.p_100:hover .body-container-body-left-skill-box-name , .p_90:hover .body-container-body-left-skill-box-name
 {
     color: #F1F1F1;
 }
