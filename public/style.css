@@ -370,6 +370,31 @@ a{
     border-radius: 15px;
 }
 
+.download-button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 1000;
+}
+.download-button:hover
+{
+    background-color: #595959;
+
+}
+.download-button {
+    padding: 10px 10px;
+    font-size: 10px;
+    background-color: #8B3DFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-block;
+}
+
 @media only screen and (max-width: 700px) {
     .body-container {
         /* background-color: lightblue; */
