@@ -380,17 +380,17 @@ a{
 }
 .download-button:hover
 {
-    background-color: #595959;
+    background-color: #8B3DFF;
 
 }
 .download-button {
     padding: 10px 10px;
     font-size: 10px;
-    background-color: #8B3DFF;
+    background-color: #8b3dff7b;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius:  50%;
     text-decoration: none;
     display: inline-block;
 }
