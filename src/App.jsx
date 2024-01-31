@@ -10,7 +10,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/resume" element={<RedirectSite />} />
-        <Route path="/tcs" element={<RedirectSite_tcs />} />
         <Route path="/file" element={<Terminal />} />
       </Routes>
       <PdfDownloadButton /> {/* Add the PdfDownloadButton component */}
@@ -23,10 +22,7 @@ const RedirectSite = () => {
   return <></>;
 };
 
-const RedirectSite_tcs = () => {
-  window.location.href = "/tcs.html"; // Absolute path
-  return <></>;
-};
+
 
 function Index() {
   return (
