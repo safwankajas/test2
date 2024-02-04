@@ -7,6 +7,10 @@ import Tech from "./Tech";
 import Work from "./Work";
 import Contact from "./Contact";
 import Resume from './Resume';
+import Abc from './Abc';
+import Exp from './Exp';
+import Avatar from './Avatar'
+
 export {
  Navbar,
  Home,
@@ -17,5 +21,8 @@ export {
  Contact,
  Resume,
  StarsCanvas,
- ComputersCanvas
+ ComputersCanvas,
+ Abc,
+ Exp,
+ Avatar
 };

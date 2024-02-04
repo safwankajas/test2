@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar, Home, About, Experience, Tech, Work, Contact, StarsCanvas, ComputersCanvas, Resume } from './components';
 import Terminal from './Terminal';
-import PdfDownloadButton from './/components/PdfDownloadButton'; // Import the PdfDownloadButton component
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
         <Route path="/resume" element={<RedirectSite />} />
         <Route path="/file" element={<Terminal />} />
       </Routes>
-      <PdfDownloadButton /> {/* Add the PdfDownloadButton component */}
     </BrowserRouter>
   );
 };
