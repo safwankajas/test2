@@ -13,7 +13,7 @@ function Exp({ isMobile }) {
       />
       <group
         scale={isMobile ? 4.5 : 4.5}
-        position-y={isMobile ? -8 : -4.3}
+        position-y={isMobile ? -6.8 : -4.3}
         rotation-y={0}
       >
         <spotLight
