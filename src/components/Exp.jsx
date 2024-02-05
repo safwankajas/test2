@@ -7,17 +7,19 @@ function Exp({ isMobile }) {
   const getCurrentModel = () => {
     const currentDate = new Date();
     const currentHour = currentDate.getHours();
+    const currentDay = currentDate.getDate(); // Get the day of the month
 
-    // Divide 24 hours into 4 intervals (0-5, 6-11, 12-17, 18-23)
-    if (currentHour >= 0 && currentHour < 6) {
-      return "a.glb";
-    } else if (currentHour >= 6 && currentHour < 12) {
-      return "b.glb";
-    } else if (currentHour >= 12 && currentHour < 18) {
-      return "c.glb";
-    } else {
-      return "d.glb";
-    }
+    // Divide 24 hours into 9 intervals (0-2.67, 2.67-5.33, ..., 21.33-24)
+    const intervalLength = 24 / 9;
+    const intervalIndex = Math.floor(currentHour / intervalLength);
+
+    // Map each interval to a model
+    const modelNames = ["a.glb", "b.glb", "c.glb", "d.glb", "e.glb", "f.glb", "g.glb", "h.glb", "i.glb"];
+
+    // Shuffle the models based on the day of the month
+    const shuffledModels = modelNames.sort(() => currentDay % 2 === 0 ? 1 : -1);
+
+    return shuffledModels[intervalIndex];
   };
 
   const [currentModel, setCurrentModel] = useState(getCurrentModel);
