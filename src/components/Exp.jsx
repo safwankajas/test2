@@ -14,13 +14,13 @@ function Exp({ isMobile }) {
       <Preload all />
       <group
         scale={isMobile ? 4 : 4.5}
-        position-y={isMobile ? -6.8 : -4.3}
+        position-y={isMobile ? -6.5 : -4.3}
         
        
       >
         <spotLight
           position={[5, 50, 50]}
-          angle={120}
+          angle={0.12}
           penumbra={10}
           intensity={0.1}
           castShadow
