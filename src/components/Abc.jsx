@@ -3,6 +3,8 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "./Loader";
 import Exp from "./Exp";  // Import Exp component
+import './Abc.css'
+
 
 const Abc = () => {
   const [isMobile, setIsMobile] = useState(true);
@@ -29,6 +31,7 @@ const Abc = () => {
       dpr={[1, 2]}
       camera={{ position: [0, 0, 21], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      className="d"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
