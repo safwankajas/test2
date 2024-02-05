@@ -11,10 +11,12 @@ function Exp({ isMobile }) {
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
       />
+      <Preload all />
       <group
         scale={isMobile ? 4.5 : 4.5}
         position-y={isMobile ? -6.8 : -4.3}
-        rotation-y={0}
+        
+       
       >
         <spotLight
           position={[5, 50, 50]}
@@ -28,7 +30,6 @@ function Exp({ isMobile }) {
         <Avatar />
         <ambientLight intensity={0.5} />
       </group>
-      <Preload all />
     </>
   );
 }

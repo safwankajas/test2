@@ -25,10 +25,9 @@ const Abc = () => {
 
   return (
     <Canvas
-      frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [0, 0, 21], fov: 30 }}
+      camera={{ position: [0, 0, 21], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
