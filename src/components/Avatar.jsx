@@ -7,7 +7,7 @@ import { useAnimations, useFBX, useGLTF } from "@react-three/drei";
 
 function Avatar(props) {
   const group=useRef();
-  const { nodes, materials } = useGLTF("models/a.glb");
+  const { nodes, materials } = useGLTF("models/c.glb");
   const {animations:wathcAnimation}=useFBX("animations/watchfbx.fbx")
   wathcAnimation[0].name="watch";
   const { actions}=useAnimations(wathcAnimation,group);
@@ -36,4 +36,4 @@ function Avatar(props) {
   );
 }export default Avatar;
 
-useGLTF.preload("models/a.glb");
+useGLTF.preload("models/c.glb");
