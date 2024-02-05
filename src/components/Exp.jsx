@@ -20,14 +20,14 @@ function Exp({ isMobile }) {
       // After 15 seconds, fade out the current model
       setTimeout(() => {
         avatarGroup.current.style.opacity = 0;
-      }, 15000); // 15000 milliseconds = 15 seconds
+      }, 7500); // 15000 milliseconds = 15 seconds
 
       // After 20 seconds, update to the next model and fade in
       setTimeout(() => {
         setCurrentModel(nextModel);
         avatarGroup.current.style.opacity = 1;
-      }, 20000); // 20000 milliseconds = 20 seconds
-    }, 30000); // 30000 milliseconds = 30 seconds
+      }, 10000); // 20000 milliseconds = 20 seconds
+    }, 20000); // 30000 milliseconds = 30 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [currentModel]);
