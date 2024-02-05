@@ -36,7 +36,7 @@ const Abc = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Exp isMobile={isMobile} />
+        <Exp isMobile={isMobile }  />
       </Suspense>
 
       <Preload all />

@@ -7,7 +7,7 @@ import { useAnimations, useFBX, useGLTF } from "@react-three/drei";
 
 function Avatar(props) {
   const group=useRef();
-  const { nodes, materials } = useGLTF("models/b.glb");
+  const { nodes, materials } = useGLTF("models/c.glb");
   const {animations:wathcAnimation}=useFBX("animations/watchfbx.fbx")
   wathcAnimation[0].name="watch";
   const { actions}=useAnimations(wathcAnimation,group);
