@@ -4,35 +4,34 @@ import { Avatar } from "../components";
 import "./Abc.css"; // Import your CSS file for styling
 
 function Exp({ isMobile }) {
-  const [currentModel, setCurrentModel] = useState("a.glb");
+  const getCurrentModel = () => {
+    const currentDate = new Date();
+    const currentHour = currentDate.getHours();
+
+    // Divide 24 hours into 4 intervals (0-5, 6-11, 12-17, 18-23)
+    if (currentHour >= 0 && currentHour < 6) {
+      return "a.glb";
+    } else if (currentHour >= 6 && currentHour < 12) {
+      return "b.glb";
+    } else if (currentHour >= 12 && currentHour < 18) {
+      return "c.glb";
+    } else {
+      return "d.glb";
+    }
+  };
+
+  const [currentModel, setCurrentModel] = useState(getCurrentModel);
 
   useEffect(() => {
     const updateModelBasedOnTime = () => {
-      const currentDate = new Date();
-      const currentHour = currentDate.getHours();
-      let model;
-
-      // Divide 24 hours into 4 intervals (0-5, 6-11, 12-17, 18-23)
-      if (currentHour >= 0 && currentHour < 6) {
-        model = "a.glb";
-      } else if (currentHour >= 6 && currentHour < 12) {
-        model = "b.glb";
-      } else if (currentHour >= 12 && currentHour < 18) {
-        model = "c.glb";
-      } else {
-        model = "d.glb";
-      }
-
-      if (currentModel !== model) {
-        setCurrentModel(model);
-      }
+      setCurrentModel(getCurrentModel());
     };
 
     const interval = setInterval(updateModelBasedOnTime, 60000); // Check every minute
     updateModelBasedOnTime(); // Check immediately when the component mounts
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [currentModel]);
+  }, []);
 
   return (
     <>
