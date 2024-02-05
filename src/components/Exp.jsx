@@ -13,7 +13,7 @@ function Exp({ isMobile }) {
       />
       <Preload all />
       <group
-        scale={isMobile ? 4.5 : 4.5}
+        scale={isMobile ? 4 : 4.5}
         position-y={isMobile ? -6.8 : -4.3}
         
        
