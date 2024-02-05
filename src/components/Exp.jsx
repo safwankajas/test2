@@ -12,8 +12,8 @@ function Exp({ isMobile }) {
         minPolarAngle={Math.PI / 2}
       />
       <group
-        scale={isMobile ? 4 : 4}
-        position-y={isMobile ? -6.6 : -4.3}
+        scale={isMobile ? 4.5 : 4.5}
+        position-y={isMobile ? -8 : -4.3}
         rotation-y={0}
       >
         <spotLight
