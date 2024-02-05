@@ -4,4 +4,7 @@
    left: 15px;
    cursor: pointer;
   }
+  .fade-effect {
+    transition: opacity 1s ease-in-out;
+  }
   
